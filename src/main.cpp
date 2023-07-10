@@ -1,7 +1,16 @@
+/*
+* Morse Generator and Game
+* Created by Jakub M0KUK
+* Created July 2023
+* 
+* Example of using Arduino platform for learning Morse Code
+* prepared as part of RSGB activity during National Coding Week
+*/
+
 #include <Arduino.h>
 
 #define ASCII_START 65  //Ascii code of first letter 'A' needed to offset
-#define NUMBER_OF_LETTERS 26
+#define NUMBER_OF_LETTERS 26 //Number of letters in English alphabet
 #define WAIT_TIME 2000 //Time before starting again in miliseconds, e.g. 1000 is 1 second
 #define ASCII_LOWER_A 97  //Ascii code for lowercase 'a'
 #define ASCII_LOWER_Z 122 //Ascii code for lowercase 'z'
